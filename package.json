@@ -1,13 +1,13 @@
 {
-  "name": "react-native-webrtc",
-  "version": "106.0.6",
+  "name": "wondermove-react-native-webrtc",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-native-webrtc/react-native-webrtc.git"
+    "url": "git+https://github.com/Wondermove-Inc/react-native-webrtc.git"
   },
   "description": "WebRTC for React Native",
   "license": "MIT",
-  "homepage": "https://github.com/react-native-webrtc/react-native-webrtc",
+  "homepage": "https://github.com/Wondermove-Inc/react-native-webrtc",
   "keywords": [
     "react-component",
     "react-native",
@@ -24,7 +24,8 @@
     "base64-js": "1.5.1",
     "debug": "4.3.4",
     "event-target-shim": "6.0.2",
-    "tar": "6.1.11"
+    "tar": "6.1.11",
+    "wondermove-react-native-webrtc": "^1.0.0"
   },
   "peerDependencies": {
     "react-native": ">=0.60.0"
@@ -36,7 +37,7 @@
     "format": "clang-format -i ios/RCTWebRTC/* android/src/main/java/com/oney/WebRTCModule/*.java android/src/main/java/com/oney/WebRTCModule/videoEffects/*.java"
   },
   "bugs": {
-    "url": "https://github.com/react-native-webrtc/react-native-webrtc/issues"
+    "url": "https://github.com/Wondermove-Inc/react-native-webrtc/issues"
   },
   "devDependencies": {
     "@types/debug": "4.1.7",
@@ -66,5 +67,10 @@
   },
   "webrtc-builds": {
     "android": "https://github.com/jitsi/webrtc/releases/download/v106.0.1/android-webrtc.zip"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "author": "Changhyun Lee <warmachine@wondermove.net>"
 }
